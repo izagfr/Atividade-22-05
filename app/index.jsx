@@ -1,10 +1,8 @@
-import { View } from 'react-native';
-// import Login from './pages/login';
-// import Ibge from './pages/ibge';
+import { View} from 'react-native';
+import Rotas from './routes/navigation'
 
 export default function Index() {
-  
   return (
-    <View></View>
+   <Rotas />
   );
 }
